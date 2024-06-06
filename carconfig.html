@@ -3,12 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Fahrzeug-Konfigurator</title>
-
 </head>
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
 
+<form>
+  <label for="fahrzeugmodell">Fahrzeugmodell:</label>
+  <select id="fahrzeugmodell" name="fahrzeugmodell">
+    <option value="Modell A">Tesla</option>
+    <option value="Modell B">Fisker</option>
+    <option value="Modell C">Audi</option>
+    <option value="Modell D">BMW</option>
+    <option value="Modell E">Ford</option>
+    <option value="Modell F">Dacia</option>
+    <option value="Modell G">Mercedes</option>
+    <option value="Modell H">BYD</option>
+    <option value="Modell I">Nissan</option>
+    <option value="Modell J">Honda</option>
+    <option value="Modell K">Hyundai</option>
+    <option value="Modell L">Toyota</option>
+    <option value="Modell M">Ferraria</option>
+    <option value="Modell N">Porsche</option>
+    <option value="Modell O">Smart</option>
+  </select>
+
+  <fieldset>
+    <legend>Lackfarbe:</legend>
+    <input type="radio" id="rot" name="lackfarbe" value="Rot">
+    <label for="rot">Rot</label><br>
+    <input type="radio" id="blau" name="lackfarbe" value="Blau">
+    <label for="blau">Blau</label><br>
+    <input type="radio" id="gruen" name="lackfarbe" value="Grün">
+    <label for="gruen">Grün</label><br>
+    <input type="radio" id="schwarz" name="lackfarbe" value="Schwarz">
+    <label for="schwarz">Schwarz</label><br>
+  </fieldset>
+
+  <button type="submit">Konfigurieren</button>
+</form>
 
 </body>
 </html>
+
